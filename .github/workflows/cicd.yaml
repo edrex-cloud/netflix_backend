@@ -31,7 +31,7 @@ jobs:
       run: |
         echo "${{ vars.ENV_VARIABLE }}" > .env
          ls -la 
-        # cat .env
+         cat .env
         docker build -t netflix_backend:latest .
 
     - name: Docker push
