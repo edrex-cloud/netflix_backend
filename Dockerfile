@@ -13,7 +13,6 @@ WORKDIR /app
 COPY application.properties /app/src/main/resources/application.properties
 COPY ./src /app/src
 COPY ./pom.xml /app
-COPY .env /app/.env
 
 # Build the application
 RUN mvn -f /app/pom.xml clean package
