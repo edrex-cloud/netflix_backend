@@ -138,4 +138,4 @@ java -jar target/{your_artifact_name}.jar
 
 Good luck with your learning and development journey! 🚀
 
-**— Engr. Smart Cares**
+**— Engr. Eric Cares**
